@@ -1,0 +1,6 @@
+f = open("hi.txt","w")
+data = f.write("pankaj")
+f = open("hi.txt" , "r")
+data = f.read()
+print(data)
+f.close()
